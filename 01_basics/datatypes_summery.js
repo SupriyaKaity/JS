@@ -1,4 +1,4 @@
-//  Primitive
+//  *****1. Primitive*****
 
 //  7 types : String, Number, Boolean, Null, Undefined, Symbol, BigInt
 
@@ -15,7 +15,8 @@ console.log(id === anotherId) //false
 
 // const bigNumber = 11123455564123789n
 
-// Reference (Non primitive)
+
+// *****2. Reference (Non primitive)*****
 
 // Array, Objects, Functions
 
@@ -30,5 +31,29 @@ const myFunction = function(){
 }
 
 console.log(typeof heros); //object
-console.log(typeof myFunction); //function
+console.log(typeof myFunction); //function 
+
+
+// *******************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "Supriya"
+let anotherNmae = myName
+
+anotherNmae = "Soumalya"
+
+console.log(myName); //Supriya
+console.log(anotherNmae); //Soumalya
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "supriya@gmail.com"
+
+console.log(userOne.email); //supriya@gmail.com
+console.log(userTwo.email); //supriya@gmail.com
 
