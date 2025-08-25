@@ -1,3 +1,14 @@
+//*******************************SCOPE***************************** */
+//In JavaScript, scope defines the accessibility and visibility of variables,
+// functions, and objects within different parts of your code.
+
+// There are three primary types of scope in JavaScript:
+// 1. Global Scope:Variables declared in the global scope are accessible from anywhere in your JavaScript program.
+// 2. Function Scope:Variables declared within a function using the var keyword have function scope.
+// 3. Block Scope:Introduced with let and const in ES6 (ECMAScript 2015).
+
+
+
 //var c = 300
 let a = 300
 

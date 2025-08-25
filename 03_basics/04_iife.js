@@ -3,7 +3,7 @@
 (function chai(){
     // named IIFE
     console.log(`DB CONNECTED`);
-})(); // need to close this function
+})(); // need to close this function 
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
